@@ -1,6 +1,6 @@
 cabeçalho{
-    background-color: aqua;
-    color: black;
+    background-color: rgb(255, 230, 0);
+    color: rgb(0, 38, 255);
     padding: 15px;
     text-align: center;
     }
@@ -10,6 +10,8 @@ cabeçalho{
     padding: 0;
     display: flex;
     justify-content: center;
+    width: 20px;
+    align-items: center;
     
-    
-    }
+} 
+  
