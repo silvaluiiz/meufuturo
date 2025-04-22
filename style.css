@@ -1,9 +1,10 @@
-.cabeçalho {
+    .cabeçalho {
     background-color: #3b82f6; /* azul mais suave */
     color: white;
     padding: 20px;
     text-align: center;
-    
+    width: 100%;
+    box-sizing: border-box;
     }
     
     .lista-principal {
@@ -12,7 +13,9 @@
     margin-top: 10px;
     display: flex;
     justify-content: center;
+    gap: 10px;
     width:20px;
+    flex-wrap: wrap;
     font-size: 20px;
     
     }
@@ -21,9 +24,12 @@
     .jurandir {
     font-size: 20px;
     color: deeppink;
-    margin: 30px;
+    margin: 30px 0;
     text-align: center;
     background-color: blueviolet;
+    width: 100%;
+    padding: 20px; 
+    box-sizing:border-box ;
     }
     
     .item{
